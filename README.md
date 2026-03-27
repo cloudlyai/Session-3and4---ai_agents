@@ -4,9 +4,9 @@ Code from Sessions 3 and 4 of the AI Engineering course. We built two versions o
 
 ## What's in here
 
-**basic_agent.py** — single-turn agent. You tell it what kind of puzzle you want (math, logic, or time), it figures out the category and pulls the right one from `puzzle.txt`. That's it, one request and done.
+**basic_agent.py** : single-turn agent. You tell it what kind of puzzle you want (math, logic, or time), it figures out the category and pulls the right one from `puzzle.txt`. That's it, one request and done.
 
-**intermediate_agent.py** — multi-turn agent with an actual loop. Keeps track of which puzzles have already been shown so it doesn't repeat them. You can keep asking for more puzzles in the same session until they run out.
+**intermediate_agent.py** : multi-turn agent with an actual loop. Keeps track of which puzzles have already been shown so it doesn't repeat them. You can keep asking for more puzzles in the same session until they run out.
 
 ## Concepts covered
 
